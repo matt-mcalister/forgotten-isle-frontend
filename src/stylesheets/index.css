@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Trade Winds', cursive;
+}
+
+h2 {
+  font-family: 'Trade Winds', cursive;
+}
+
+h3 {
+  font-family: 'Trade Winds', cursive;
+}
+
+p {
+  font-family: 'Underdog', cursive;
+}
+
+input {
+  font-family: 'Underdog', cursive;
+}
+
+input.submit {
+  font-family: 'Underdog', cursive;
+}
+
+button {
+  font-family: 'Underdog', cursive;
+}
+
+ul {
+  font-family: 'Underdog', cursive;
+}
+
+select {
+  font-family: 'Underdog', cursive;
+}

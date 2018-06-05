@@ -1,0 +1,114 @@
+.inventory {
+  text-align: center;
+  height: inherit;
+  width: 95%;
+  margin-left:auto;
+  margin-right:auto;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  grid-gap:0.5em;
+}
+
+.inventory-name {
+  margin: auto;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.treasure-cards-container {
+  height: inherit;
+  display: grid;
+  grid-row: 2 / 3;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 0.2em;
+}
+
+.user-inventory-container {
+  grid-area: 1 / 2 / 2 / 3
+}
+
+.team-inventory-container {
+  display:block;
+  width: 100%;
+  height: 100%;
+}
+
+.team-inventory {
+  height: 30%;
+  border: 0.1em solid black;
+  margin-top:0.2em
+}
+
+
+.team-game-info {
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 75% 25%;
+}
+
+.treasures-obtained {
+  border: 0.1em solid brown;
+  width:98%;
+  margin-left:0.2em;
+  margin-bottom:0.2em;
+  text-align: center;
+}
+
+.treasures-obtained h3 {
+  /* line-height:0; */
+  margin:0;
+  line-height: normal;
+}
+
+.treasures-obtained-container {
+  width: 90%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.obtained-treasure {
+  height: inherit;
+}
+
+.obtained-treasure img {
+  height:50%;
+}
+
+.obtained-treasure h3 {
+  font-size: 0.75em;
+  margin:0;
+}
+
+.treasure-card {
+  border-radius: 1em;
+  height: 4vmin;
+  width: 100%;
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+
+.treasure-card h3 {
+  line-height: 1em;
+  margin:auto;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.helicopter-lift {
+  background-color: grey;
+}
+
+.sandbag {
+  background-color: #c2b280;
+}
+
+.treasure-card img {
+  height:inherit;
+  margin: auto;
+  grid-area: 2 / 2 / 3 / 3;
+}

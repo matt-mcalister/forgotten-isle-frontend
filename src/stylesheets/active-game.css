@@ -1,0 +1,140 @@
+.active-game {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 16% 50% 33%;
+  grid-template-rows: 66% 33%;
+  grid-auto-flow: column;
+}
+
+.loader {
+    position:fixed;
+    top: 20%;
+    left: 30%;
+    border: 4em solid #f3f3f3; /* Light grey */
+    border-top: 4em solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30em;
+    height: 30em;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.game-info {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 30vmin
+}
+
+.begin-game-button {
+  background: #cc9900;
+  display: flex;
+  width: 20vmin;
+  height: 8vmin;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 2em;
+}
+
+.begin-game-button h3 {
+  margin: auto;
+
+}
+
+.ready-up-container {
+  width: 60%;
+  height: 30%;
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.ready-up-button {
+  height: 100%;
+  width: 20%;
+  margin-right: 1em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+p.ready_up_message {
+  margin-top: 25%
+}
+
+.active-game-bottom {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+.Explorer {
+  margin-top: 10%;
+  margin-left: 3%;
+  background-color: green;
+}
+
+.explorer {
+  background-color: green;
+}
+
+.Pilot {
+  margin-top: 10%;
+  margin-left: 68%;
+  background-color: blue;
+}
+
+.pilot {
+  background-color: blue;
+  color: white;
+}
+
+.Diver {
+  margin-top: 10%;
+  margin-left: 35%;
+  background-color: white;
+}
+
+.diver {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.Engineer {
+  margin-top: 45%;
+  margin-left: 35%;
+  background-color: red;
+}
+
+.engineer {
+  background-color: red;
+}
+
+.Navigator {
+  margin-top: 45%;
+  margin-left: 3%;
+  background-color: yellow;
+}
+
+.navigator {
+  background-color: yellow;
+}
+
+.Messenger {
+  margin-top: 45%;
+  margin-left: 68%;
+  background-color: grey;
+}
+
+.messenger {
+  background-color: grey;
+}

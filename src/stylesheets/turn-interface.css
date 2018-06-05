@@ -1,0 +1,86 @@
+.current-turn-interface {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.navigation-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr
+}
+
+.arrow {
+  margin: auto;
+}
+
+.up {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.down {
+  grid-area: 3 / 2 / 4 / 3;
+  transform:rotate(180deg);
+}
+
+.left {
+  grid-area: 2 / 1 / 3 / 2;
+  transform:rotate(270deg);
+}
+
+.right {
+  grid-area: 2 / 3 / 3 / 4;
+  transform:rotate(90deg);
+}
+
+.up-left {
+  grid-area: 1 / 1 / 2 / 2;
+  transform:rotate(315deg)
+}
+
+.down-right {
+  grid-area: 3 / 3 / 4 / 4;
+  transform:rotate(135deg);
+}
+
+.down-left {
+  grid-area: 3 / 1 / 4 / 2;
+  transform:rotate(225deg);
+}
+
+.up-right {
+  grid-area: 1 / 3 / 2 / 4;
+  transform:rotate(45deg);
+}
+
+.current-location-pin {
+  grid-area: 2 / 2 / 3 / 3;
+  margin: auto;
+}
+
+.turn-action-buttons {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+}
+
+.turn-action-buttons h3 {
+  line-height: 0.7em;
+}
+
+.turn-action-buttons div {
+  background: #cc9900;
+  width: 80%;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 0.05vmin;
+  padding-bottom: 0.05vmin;
+  border-radius: 1em;
+}
+
+.turn-action-buttons h3 {
+  font-size: 0.8em;
+}
