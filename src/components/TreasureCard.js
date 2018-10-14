@@ -23,7 +23,7 @@ const TreasureCard = (props) => {
       const formattedInventoryItem = props.card.toLowerCase().replace(/ /g, "-")
       return (
         <div className={`treasure-card ${formattedInventoryItem}`} onClick={() => props.handleClick(props.card, props.id)}>
-          <img src={require(`../treasure-card-icons/${formattedInventoryItem}.png`)}/>
+          <img src={require(`../treasure-card-icons/${formattedInventoryItem}.png`)} alt={props.card}/>
         </div>
       )
   }

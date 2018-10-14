@@ -35,7 +35,7 @@ class Tile extends React.Component {
           }}>
           </div>
           <div className="tile-name">
-            {this.props.tile.treasure && <div className="treasure-icon"><img className="treasure-icon-img" src={require(`../treasure-card-icons/${formattedTreasure}.png`)}/></div>}
+            {this.props.tile.treasure && <div className="treasure-icon"><img className="treasure-icon-img" src={require(`../treasure-card-icons/${formattedTreasure}.png`)} alt={this.props.tile.treasure}/></div>}
             <p>{this.props.tile.name}</p>
           </div>
         </div>

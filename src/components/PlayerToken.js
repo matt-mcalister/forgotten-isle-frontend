@@ -58,7 +58,7 @@ class PlayerToken extends React.Component {
         onMouseOver={this.handleMouseOver}
         onMouseOut={this.handleMouseOut}
         onClick={this.handleClick}>
-          <img className="player-token-image" src={require(`../player-icons/${this.props.ability.toLowerCase()}.png`)}/>
+          <img className="player-token-image" src={require(`../player-icons/${this.props.ability.toLowerCase()}.png`)} alt={this.props.ability}/>
         </div>
       )
     } else {
