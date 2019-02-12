@@ -8,7 +8,6 @@ import thunk from "redux-thunk"
 import { ActionCableProvider } from 'react-actioncable-provider';
 import { BrowserRouter as Router } from 'react-router-dom'
 
-import { composeWithDevTools } from 'redux-devtools-extension';
 
 
 import "./stylesheets/index.css"
@@ -31,7 +30,7 @@ const rootReducer = combineReducers({
 
 
 
-const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)));
+const store = createStore(rootReducer, applyMiddleware(thunk));
 
 ReactDOM.render(
   <ActionCableProvider url={API_WS_ROOT}>
