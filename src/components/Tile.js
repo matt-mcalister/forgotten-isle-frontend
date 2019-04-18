@@ -30,7 +30,7 @@ class Tile extends React.Component {
       return (
         <div className={`tile cell-${this.props.tile.position}`} onClick={this.handleClick}>
           <div className="tile-image-container" style={{
-            "background": `linear-gradient(rgba(0,0,255,${opacity}), rgba(0,0,254,${opacity})) center center / contain, url(${require(`../tile-imgs/${this.props.tile.name.toLowerCase().replace(/ /g, "_")}.jpg`)}) center center / auto 100%`,
+            "background": `linear-gradient(rgba(0,0,255,${opacity}), rgba(0,0,254,${opacity})) center center / contain, url(${require(`../tile-imgs/${this.props.tile.name.toLowerCase().replace(/ /g, "_")}.jpg`)}) center center / auto 120%`,
             "backgroundRepeat": "no-repeat, no-repeat"
           }}>
           </div>
