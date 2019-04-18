@@ -39,3 +39,7 @@ ul {
 select {
   font-family: 'Underdog', cursive;
 }
+
+::-webkit-scrollbar, ::-webkit-scrollbar-corner {
+    background-color: rgba(0,0,0,0);
+}
