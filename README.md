@@ -12,9 +12,9 @@ Once you’re on the island, you have the choice of creating a game or joining a
 
 #### Gameplay
 
-Once you are in a game, you’ll be able to chat with other player in the chatwindow. If you would like instructions on how to play the game, simply type “help” into the chat window.
+Once you are in a game, you’ll be able to chat with other players in the chat window. If you would like instructions on how to play the game, simply type “help” into the chat window.
 
-When you are ready to start the game, simply click the green “Ready Up”. Once all players have readied-up, a “Begin Game” button will appear that allows you to commence gameplay.
+When you are ready to start the game, simply click the green “Ready Up” button. Once all players have readied-up, a “Begin Game” button will appear that allows you to commence gameplay.
 
 ## License
 
